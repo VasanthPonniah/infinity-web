@@ -1,0 +1,29 @@
+.adBanner {
+  position: relative;
+  width: auto;
+}
+
+.adImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.adButton {
+  position: absolute;
+  bottom: 90px;
+  right: 300px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .adButton {
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,18 @@
+.menu {
+  position: fixed;
+  width: 100%;
+  font-weight: bold;
+  height: 50px;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}

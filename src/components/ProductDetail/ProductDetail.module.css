@@ -1,0 +1,57 @@
+.ProductDetail {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.productImage {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.productImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.productInfo {
+  flex: 1;
+}
+
+.productInfo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.size,
+.material,
+.manufacturer,
+.color,
+.reviews {
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

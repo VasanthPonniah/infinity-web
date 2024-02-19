@@ -1,0 +1,21 @@
+.tableContainer {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.evenRow {
+  background-color: #fafafa;
+}
+
+.oddRow {
+  background-color: #fafafa;
+}
+
+.oddRow:hover,
+.evenRow:hover {
+  background-color: #d5d3d3;
+}
+
+.heading {
+  color: green;
+}

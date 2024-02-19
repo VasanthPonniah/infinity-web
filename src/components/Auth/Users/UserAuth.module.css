@@ -1,0 +1,25 @@
+.loginFormContainer {
+  max-width: 300px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.loginFormContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ant-form-item {
+  margin-bottom: 15px;
+}
+
+.ant-input-password {
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+}
